@@ -1,0 +1,165 @@
+body{
+    background-image: linear-gradient(rgb(70, 152, 99), rgb(235, 235, 189));
+    font-family: 'Inter';  
+    font-size:32px;
+    line-height:120%; 
+    margin-bottom: 1px;   
+    
+}
+.encabezado{    
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+.navegacion{
+    display: inline-block;
+    margin-top: 30px;
+    padding-right: 0px;
+    position: absolute;
+}
+#custome{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px; 
+    text-align: right;
+      
+     
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;  
+  
+}
+nav a:hover{
+    color:aquamarine;
+}
+
+.presentacion{
+    margin-top: 50px;
+    font-size: 20px;
+} 
+
+.texto{ 
+    text-align: justify ;
+    margin-top: 150px;
+    padding-left: 20% ;
+    margin-right: 60px;
+    
+}
+.foto{ 
+    
+    margin-top: 60px;  
+    margin-left: 40px;
+    width:15%;    
+    border-radius: 28px; 
+    margin-right: 10px;
+    box-shadow: 10px 10px rgb(208, 230, 173); 
+    position: absolute;
+    top:100px;
+     display: inline-block;   
+}
+.footer{
+
+    margin-top: 150px;
+    margin-bottom: 10px;
+    text-align: center;    
+    font-size: 10px;
+
+}
+.copyrigth{
+    
+    background: url(imagenes/bg.jpg);
+
+}
+#pie{
+
+    position:relative;
+    text-align: center;
+    
+}
+
+/*a partir de aqui comienza formacion*/
+ 
+
+.finalizados{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    
+}
+.estudios{
+ margin-right: 20px;
+}
+
+.titulo{    
+    margin-top: 20px;
+    margin-left:10px;
+    font-size: 30px;  
+    font-weight: bold; 
+    text-align: left;  
+}
+.lista{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.items{
+    line-height: 1.5;    
+}
+.items:before{
+    content: "★";
+}
+.estudios{
+    display: inline-block;
+    font-size: 25px;
+}
+.parrafo{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.titulo2{
+    margin-top: 20px;
+    font-weight: bold;
+}
+#boton{
+    border-radius: 18px;
+    background: rgb(153, 204, 158) ;
+}
+#boton2{
+    border-radius: 18px;
+    background: rgb(153, 204, 158) ;
+
+}
+#certificado1{
+    width: 30%;
+    position:fixed;
+    display:none;
+    
+}
+#imagenLaptop{
+    width: 30%;
+    position: fixed;    
+    margin-top: 90px;
+    
+}
+/*contacto*/
+.datos{
+    display: inline-block;
+    font-size: large;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.click{
+    text-decoration: none;
+}
+.click:hover{
+    color:red;
+}
